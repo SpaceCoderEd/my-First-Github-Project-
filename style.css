@@ -1,3 +1,8 @@
-.p {
-    font-style: italic;
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
+
