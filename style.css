@@ -69,6 +69,13 @@ li{
     justify-content: center;
 }
 
+#about,
+#discord,
+#contact {
+    padding: 48px 0;
+}
+
+
 /*
 
 ABOUT SECTION!!!
@@ -76,7 +83,6 @@ ABOUT SECTION!!!
 */
 
 #about {
-    padding: 48px 0;
     background-color: #f8ffdc;
 }
 
@@ -120,3 +126,7 @@ img {
 DISCORD SECTION!!!
 
 */
+
+#discord {
+    background-color: #cefeff;
+}
