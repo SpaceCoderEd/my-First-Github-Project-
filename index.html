@@ -19,7 +19,7 @@
       </nav>
       <header>
         <div class="row">
-          <div>
+          <div class="home__description">
             <h1>The Best Place to learn Front End Coding!</h1>
             <p class="subheader">
               Go from being an ABSOLUTE beginner to a max PRO with a very
@@ -39,43 +39,47 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description">
-          <div class="section__description--wrapper">
-            <p class="section__description--p">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatibus repudiandae iure deserunt animi, at, eum amet fugiat
-              quisquam sint expedita nulla ut, ipsa repellendus et.
-            </p>
-            <p class="section__description--p">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Voluptatibus repudiandae iure deserunt animi, at, eum amet fugiat
-              quisquam sint expedita nulla ut, ipsa repellendus et.
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--p">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatibus repudiandae iure deserunt animi, at, eum amet
+                fugiat quisquam sint expedita nulla ut, ipsa repellendus et.
+              </p>
+              <p class="section__description--p">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatibus repudiandae iure deserunt animi, at, eum amet
+                fugiat quisquam sint expedita nulla ut, ipsa repellendus et.
+              </p>
+            </div>
+            <figure class="about__img--wraper">
+              <img src="./assests2/about.jpg" alt="Person typing on laptop" />
+            </figure>
           </div>
-          <figure class="about__img--wraper">
-            <img src="./assests2/about.jpg" alt="Person typing on laptop" />
-          </figure>
         </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section__description">
-          <div class="section__description--wrapper">
-            <p class="section__description--p">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Voluptatibus repudiandae iure deserunt animi, at, eum amet fugiat
-            quisquam sint expedita nulla ut, ipsa repellendus et.
-            </p>
-            <p class="section__description--p">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Voluptatibus repudiandae iure deserunt animi, at, eum amet fugiat
-            quisquam sint expedita nulla ut, ipsa repellendus et.
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--p">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatibus repudiandae iure deserunt animi, at, eum amet fugiat
+              quisquam sint expedita nulla ut, ipsa repellendus et.
+              </p>
+              <p class="section__description--p">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatibus repudiandae iure deserunt animi, at, eum amet fugiat
+              quisquam sint expedita nulla ut, ipsa repellendus et.
+              </p>
+            </div>
+            <figure class="about__img--wraper">
+              <img src="./assests2/discord.png" alt="Photo of a discord logo" />
+            </figure>
           </div>
-          <figure class="about__img--wraper">
-            <img src="./assests2/discord.png" alt="Photo of a discord logo" />
-          </figure>
         </div>
       </section>
 
@@ -83,7 +87,7 @@
         <h2>Contact</h2>
         <form action="">
           <span>Email:</span>
-          <input type="text" placeholder="jane@example.com" />
+          <input type="email" placeholder="jane@example.com" />
           <span>Message:</span>
           <textarea type="text" placeholder="Your message here..."></textarea>
           <button>Submit!</button>
@@ -93,14 +97,15 @@
 
     <footer id="footer">
       <img
+        class="footer__logo"
         src="./assests2/FES.svg"
         alt="Photo of A computer plus it's monitor"
       />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
       </div>
       <p>Copyright &copy; 2026 Front End Simplified</p>
     </footer>
