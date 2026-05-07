@@ -149,6 +149,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 24px;
 }
 
 input, textarea {
@@ -224,5 +225,13 @@ FOOTER SECTION!!!
 
     #discord .section__description {
         flex-direction: column-reverse;
+    }
+
+    footer {
+        padding: 48px 24px;
+    }
+
+    .footer__logo {
+        max-width: 400px;
     }
 }
