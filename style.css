@@ -227,11 +227,20 @@ FOOTER SECTION!!!
         flex-direction: column-reverse;
     }
 
-    footer {
+    #footer {
         padding: 48px 24px;
     }
 
     .footer__logo {
         max-width: 400px;
+    }
+
+    .footer__link {
+        padding: 0 4px;
+        font-size: 18px;
+    }
+
+    .footer__links {
+        margin-bottom: 24px;
     }
 }
